@@ -1,3 +1,5 @@
+// @ts-expect-error Added to avoid errors in test
+import React from "react";
 import "./header.css";
 
 interface HeaderProps {

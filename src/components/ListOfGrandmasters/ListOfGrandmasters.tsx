@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
@@ -8,7 +9,6 @@ import {
 import Pagination from "../Pagination";
 import Loader from "../Loader";
 import Header from "../Header";
-import chess from "../../assets/chess.png";
 
 import "./list-of-grandmasters.css";
 
@@ -49,7 +49,7 @@ function ListOfGrandmasters() {
     <>
       <Header
         title={"Grandmasters"}
-        imageSrc={chess}
+        imageSrc="/chess.png"
         altForImage={"Pieces of a chess"}
       />
       <div className="container">

@@ -1,7 +1,7 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-import chessPlayer from "../../assets/chess-player.png";
 import HoursSinceLastLogin from "./HoursSinceLastLogin";
 
 import "./user-details.css";
@@ -41,7 +41,7 @@ function UserDetails(props: UserDetails) {
   return (
     <div className="profile-container">
       <img
-        src={avatar || chessPlayer}
+        src={avatar || "/chess-player.png"}
         alt="User avatar"
         width="100"
         height="100"

@@ -1,9 +1,9 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import camelcaseKeys from "camelcase-keys";
 import { chessmasterProfile } from "../../libraries/constants";
-import chessPlayer from "../../assets/chess-player.png";
 
 import Header from "../Header";
 import Overview from "./Overview";
@@ -83,7 +83,7 @@ function UserProfile() {
       <>
         <Header
           title={username}
-          imageSrc={chessPlayer}
+          imageSrc="/chess-player.png"
           altForImage={"An user with a piece of chess"}
         />
 
