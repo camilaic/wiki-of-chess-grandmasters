@@ -13,6 +13,8 @@ Currently, 50 items are displayed per page.
 
 When the user clicks on the username, they are redirected to the user profile page.
 
+<img src="https://github.com/user-attachments/assets/4a2b8290-a817-499c-ae53-74b72b12b508" alt="Image" width="900" height="700">
+
 ## Grandmaster profile page
 
 The `UserProfile` component is responsible for displaying the profile page, which consists of:
@@ -24,6 +26,7 @@ The `UserProfile` component is responsible for displaying the profile page, whic
   return the time since the user was active. This time is displayed in the format HH:MM:SS and is updated every second.
 - an `Overview` component: displays other miscellaneous information, such as league and player id.
 
+![Image](https://github.com/user-attachments/assets/8f0cf970-afba-4ad5-920e-e8ee34042082)
 
 
 
