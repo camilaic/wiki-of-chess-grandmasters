@@ -1,7 +1,7 @@
 export const BASE_API = `https://api.chess.com/pub`;
 export const GRANDMASTERS_LIST_API_URL = `${BASE_API}/titled/GM`;
 
-// handle this undefined
+// TODO: handle this undefined
 export const chessmasterProfile = (username: string | undefined): string => {
   return `${BASE_API}/player/${username}`;
 };
