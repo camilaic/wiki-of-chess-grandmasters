@@ -30,7 +30,7 @@ describe("UserDetails", () => {
       `Title: ${defaultProps.title}`,
     );
 
-    // Name
+    // League
     expect(screen.getByText(/League:/)).toHaveTextContent(
       `League: ${defaultProps.league}`,
     );

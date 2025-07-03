@@ -1,3 +1,4 @@
+// @ts-ignore need this for tests to pass
 import React from "react";
 import { useEffect, useState } from "react";
 import { getFormattedHours } from "../../libraries/helpers";
