@@ -1,0 +1,14 @@
+.head-container {
+    background-color: #7B7B7B;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    border-radius: 0.5em;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    margin-right: 16px;
+}

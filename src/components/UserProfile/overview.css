@@ -1,0 +1,8 @@
+.overview {
+    margin-top: 32px;
+}
+
+.overview > p {
+    font-weight: bold;
+    font-size: 24px;
+}

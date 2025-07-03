@@ -1,0 +1,13 @@
+.details-container {
+    background: #262522;
+    color: #DFDFDE;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    padding: 18px;
+    margin-top: 16px;
+}
+
+.error-message {
+    margin-top: 16px;
+}

@@ -1,0 +1,31 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+.list {
+    list-style: none;
+    columns: 2;
+    padding-left: 0;
+}
+
+.username {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: whitesmoke;
+    color: black;
+    border-bottom: 1px solid #ccc;
+    font-weight: 600;
+}
+
+.username:hover {
+    color: gray;
+}
+
+.error-message {
+    margin-top: 16px;
+}

@@ -1,0 +1,27 @@
+.profile-container {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.avatar {
+    border-radius: 0.2em;
+    margin-right: 16px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-bottom {
+    display: flex;
+    gap: 24px; /* space between items */
+    white-space: nowrap; /* prevent line break */
+}

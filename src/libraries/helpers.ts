@@ -7,10 +7,8 @@ export function getFormattedHours(milliseconds: number) {
   const formattedTime = [
     hours.toString().padStart(2, "0"),
     minutes.toString().padStart(2, "0"),
-    seconds.toString().padStart(2, "0")
+    seconds.toString().padStart(2, "0"),
   ].join(":");
 
-  console.log(formattedTime); // 21:12:09
-  return formattedTime;
+  return formattedTime; // 21:12:09
 }
-

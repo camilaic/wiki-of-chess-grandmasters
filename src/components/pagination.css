@@ -1,0 +1,11 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.pagination-container > button {
+    cursor: pointer;
+    margin-left: 6px;
+}
+
