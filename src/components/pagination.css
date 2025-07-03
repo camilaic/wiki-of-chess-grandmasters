@@ -1,11 +1,18 @@
 .pagination-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 8px 0;
 }
-
 
 .pagination-container > button {
     cursor: pointer;
-    margin-left: 6px;
+    padding: 6px 8px;
 }
 
+@media (max-width: 600px) {
+    .pagination-container {
+        gap: 4px;
+    }
+}

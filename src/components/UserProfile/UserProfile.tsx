@@ -8,9 +8,9 @@ import { chessmasterProfile } from "../../libraries/constants";
 import Header from "../Header";
 import Overview from "./Overview";
 import UserDetails from "./UserDetails";
+import Loader from "../Loader";
 
 import "./user-profile.css";
-import Loader from "../Loader";
 
 export interface UserProfile {
   avatar: string;

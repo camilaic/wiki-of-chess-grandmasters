@@ -8,6 +8,8 @@
     list-style: none;
     columns: 2;
     padding-left: 0;
+    width: 100%;
+    max-width: 100%;
 }
 
 .username {
@@ -28,4 +30,10 @@
 
 .error-message {
     margin-top: 16px;
+}
+
+@media (max-width: 600px) {
+    .list {
+        columns: 1;
+    }
 }
