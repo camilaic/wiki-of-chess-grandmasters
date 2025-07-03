@@ -13,7 +13,7 @@ Currently, 50 items are displayed per page.
 
 When the user clicks on the username, they are redirected to the user profile page.
 
-<img src="https://github.com/user-attachments/assets/4a2b8290-a817-499c-ae53-74b72b12b508" alt="Image" width="900" height="700">
+<img src="https://github.com/user-attachments/assets/4a2b8290-a817-499c-ae53-74b72b12b508" alt="Image" width="900" height="650">
 
 ## Grandmaster profile page
 
